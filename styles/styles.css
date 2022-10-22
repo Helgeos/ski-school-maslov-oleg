@@ -36,11 +36,36 @@
 
 /* Common */
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #060D10;
+}
+
+button {
+  color: #060D10;
+}
+
+ul {
+  list-style: none;
+}
+
 /* Header */
 
-.menu-link,
-.header-logo,
-.menu-number {
+header {
+  background-color: #66D1FF;
+}
+
+.header-btn {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  background: #FFFFFF;
+}
+
+.header-logo {
   font-family: 'Montserrat';
   font-style: normal;
   font-size: 28px;
@@ -48,7 +73,18 @@
   line-height: 34px;
 }
 
-/* About */
+.phone {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  text-decoration: none;
+  color: #060D10;
+}
+
+/* Sections options */
+
+/* Order */
 
 .product-title {
   font-family: 'Oswald';
@@ -56,6 +92,9 @@
   font-weight: 500;
   font-size: 60px;
   line-height: 89px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px #060D10;
 }
 
 .product-desc {
@@ -64,6 +103,7 @@
   font-weight: 500;
   font-size: 32px;
   line-height: 39px;
+  text-shadow: 1px 1px 2px #060D10;
 }
 
 h2 {
@@ -88,6 +128,7 @@ h2 {
   font-weight: 400;
   font-size: 26px;
   line-height: 36px;
+  opacity: 0.8;
 }
 
 .order-text {
@@ -107,6 +148,17 @@ h2 {
 }
 
 /* Footer */
+
+.footer {
+  background-color: #060D10;
+  color: #FFFFFF;
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 33px;
+}
 
 .social {
   font-family: 'Montserrat';
