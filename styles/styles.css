@@ -36,10 +36,28 @@
 
 /* Common */
 
+* {
+  box-sizing: border-box;
+}
+
+/* p,
+h1,
+h2 {
+  padding: 0;
+  margin: 0;
+} */
+
 body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #060D10;
+  margin: 0;
+}
+
+.container {
+  width: 1278px;
+  margin: 0 auto;
+  border: 1px solid red;
 }
 
 button {
@@ -83,8 +101,6 @@ header {
 }
 
 /* Sections options */
-
-/* Order */
 
 .product-title {
   font-family: 'Oswald';
@@ -130,6 +146,8 @@ h2 {
   line-height: 36px;
   opacity: 0.8;
 }
+
+/* Order */
 
 .order-text {
   font-family: 'Oswald';
