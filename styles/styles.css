@@ -57,7 +57,6 @@ body {
 .container {
   width: 1278px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 h1,
@@ -179,9 +178,10 @@ text-shadow: 1px 1px 2px #060D10;
 /*  Options */
 
 .options {
-  background-color: rgba(102, 209, 255, .1);
+  background-color: rgba(102, 209, 255, 1);
   padding: 170px 0 0 0;
 }
+
 
 .options-wrap {
   display: flex;
@@ -229,7 +229,7 @@ text-shadow: 1px 1px 2px #060D10;
 /*  Order */
 
 .order {
-  background: linear-gradient(208.35deg, rgba(102, 209, 255, .1) 43.85%, rgba(196, 196, 196, 0) 43.86%);
+  background: linear-gradient(208.35deg, rgba(102, 209, 255, 1) 43.85%, rgba(196, 196, 196, 0) 43.86%);
   padding: 170px 0 180px 0;
 }
 
