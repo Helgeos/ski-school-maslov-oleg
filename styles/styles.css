@@ -172,18 +172,35 @@ h2 {
   color: #FFFFFF;
 }
 
+.footer-wrap{
+  display: flex;
+  padding: 35px 0;
+  align-items: center;
+}
+
 .footer-text {
   font-weight: 500;
   font-size: 20px;
   line-height: 33px;
+  margin-right: 50px;
 }
 
-.social {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 33px;
+.social-list{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.social-icon {
+  margin-right: 20px;
+}
+
+.social-link{
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-position: center center;
 }
 
 .copyright {
@@ -192,4 +209,5 @@ h2 {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
+  margin: 0 0 0 auto;
 }
